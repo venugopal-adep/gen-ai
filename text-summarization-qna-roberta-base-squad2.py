@@ -1,7 +1,7 @@
 import streamlit as st
 from transformers import pipeline
 
-summarizer = pipeline('summarization')
+summarizer = pipeline('summarization', model="sshleifer/distilbart-cnn-12-6")
 model_name = "deepset/roberta-base-squad2"
 nlp = pipeline('question-answering', model=model_name, tokenizer=model_name)
 
