@@ -7,4 +7,3 @@ torch
 psutil
 datasets
 haystack
-mmh3
