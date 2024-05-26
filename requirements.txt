@@ -6,4 +6,4 @@ transformers
 torch
 psutil
 datasets
-haystack
+farm-haystack
