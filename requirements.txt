@@ -1,3 +1,6 @@
 streamlit
-transformers
+beautifulsoup4
+requests
 nltk
+transformers
+torch
